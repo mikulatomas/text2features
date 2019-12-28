@@ -3,6 +3,7 @@ import text2features.extractors
 import glob
 
 # Text files as input
+# Source of the dataset http://mlg.ucd.ie/datasets/bbc.html
 filelist = glob.glob('datasets/bbc/*/*.txt')
 
 # Additional stopwords
