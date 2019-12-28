@@ -39,6 +39,7 @@ handler.process_to_file(filelist, 'example_output.csv', build_universum=True)
 ```
 
 example_output.csv
+First row is filename, rest are keywords related to input file.
 ```
 entertainment_208.txt,duran,vh1,album,interview,bon
 entertainment_234.txt,elvis,chart,number,place,week
@@ -54,6 +55,7 @@ entertainment_383.txt,film,director,vabres,alan,death
 ```
 
 example_output_universum.csv
+One keyword per line.
 ```
 1950
 1970
