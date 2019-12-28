@@ -24,5 +24,5 @@ extractor = text2features.extractors.TextRank(
 # Handler for extracting text from files
 handler = text2features.handlers.FileHandler(extractor)
 
-# Process files and save keywords to csv file
+# Process files and save keywords to csv file, build_universum means that output will include file with set of all keywords
 handler.process_to_file(filelist, 'example_output.csv', build_universum=True)
