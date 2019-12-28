@@ -5,7 +5,7 @@ TextRank extractor based on https://towardsdatascience.com/textrank-for-keyword-
 
 ## Example
 
-```
+```python
 import text2features.handlers
 import text2features.extractors
 import glob
