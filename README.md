@@ -3,6 +3,10 @@ Extracts boolean features (keywords) from text. Work in progress, do not use in 
 
 TextRank extractor based on https://towardsdatascience.com/textrank-for-keyword-extraction-by-python-c0bae21bcec0
 
+## Requirements
+Install spacy language model, english example:
+```python -m spacy download en_core_web_sm```
+
 ## Example
 
 `example.py`
