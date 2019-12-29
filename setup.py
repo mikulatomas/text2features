@@ -9,4 +9,5 @@ setup(packages=find_packages(),
       author='Tomáš Mikula',
       author_email='mail@tomasmikula.cz',
       url='http://tomasmikula.cz',
+      install_requires=['spacy'],
       )
